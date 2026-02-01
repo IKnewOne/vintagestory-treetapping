@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "patches": {
+    "integer": {
+      "treetapredux:blocktypes/treetapper.json": {
+        "attributesByType/treetapper-empty-*/transientProps/inGameHours": "EMPTY_TO_THIRD_HOURS",
+        "behaviorsByType/treetapper-third-*/0/properties/harvestedStack/quantity/avg": "THIRD_RESIN_QUANTITY",
+        "attributesByType/treetapper-third-*/transientProps/inGameHours": "THIRD_TO_TWOTHIRD_HOURS",
+        "behaviorsByType/treetapper-twothird-*/0/properties/harvestedStack/quantity/avg": "TWOTHIRD_RESIN_QUANTITY",
+        "attributesByType/treetapper-twothird-*/transientProps/inGameHours": "TWOTHIRD_TO_FULL_HOURS",
+        "behaviorsByType/treetapper-full-*/0/properties/harvestedStack/quantity/avg": "FULL_RESIN_QUANTITY"
+      }
+    }
+  },
+  "settings": {
+    "integer": {
+      "EMPTY_TO_THIRD_HOURS": {
+        "name": "empty-to-third-hours",
+        "ingui": "treetapredux:setting-empty-to-third-hours",
+        "weight": 2.0,
+        "comment": "treetapredux:setting-empty-to-third-hours-comment",
+        "default": 8,
+        "range": {
+          "min": 1,
+          "max": 168
+        }
+      },
+      "THIRD_RESIN_QUANTITY": {
+        "name": "third-resin-quantity",
+        "ingui": "treetapredux:setting-third-resin-quantity",
+        "weight": 1.0,
+        "comment": "treetapredux:setting-third-resin-quantity-comment",
+        "default": 1,
+        "range": {
+          "min": 1,
+          "max": 64
+        }
+      },
+      "THIRD_TO_TWOTHIRD_HOURS": {
+        "name": "third-to-twothird-hours",
+        "ingui": "treetapredux:setting-third-to-twothird-hours",
+        "weight": 2.1,
+        "comment": "treetapredux:setting-third-to-twothird-hours-comment",
+        "default": 16,
+        "range": {
+          "min": 1,
+          "max": 168
+        }
+      },
+      "TWOTHIRD_RESIN_QUANTITY": {
+        "name": "twothird-resin-quantity",
+        "ingui": "treetapredux:setting-twothird-resin-quantity",
+        "weight": 1.1,
+        "comment": "treetapredux:setting-twothird-resin-quantity-comment",
+        "default": 3,
+        "range": {
+          "min": 1,
+          "max": 64
+        }
+      },
+      "TWOTHIRD_TO_FULL_HOURS": {
+        "name": "twothird-to-full-hours",
+        "ingui": "treetapredux:setting-twothird-to-full-hours",
+        "weight": 2.2,
+        "comment": "treetapredux:setting-twothird-to-full-hours-comment",
+        "default": 24,
+        "range": {
+          "min": 1,
+          "max": 168
+        }
+      },
+      "FULL_RESIN_QUANTITY": {
+        "name": "full-resin-quantity",
+        "ingui": "treetapredux:setting-full-resin-quantity",
+        "weight": 1.2,
+        "comment": "treetapredux:setting-full-resin-quantity-comment",
+        "default": 6,
+        "range": {
+          "min": 1,
+          "max": 64
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "block-treetapper-*": "Tree tapping kit",
+  "item-tap": "Copper tree tap",
+  "itemcraftdesc-tap": "A specialized tool used for gathering resin from trees more quickly",
+
+  "itemdesc-tap": "A specialized tool used for gathering resin from trees more quickly. Combined with a wooden bucket to craft a <a href=\"handbook://block-treetapper-empty-north\">Tree Tapping Kit</a>.\n\nCan only be made using copper.",
+
+  "blockdesc-treetapper-*": "Set up this kit on a section of tree that is leaking <a href=\"handbook://item-resin\">Resin</a> to gather it more quickly. Once placed, check back often to collect the resin.",
+  "game:placefailure-blockalreadyattached": "Can't place more than one on this block",
+
+  "setting-third-resin-quantity": "Resin from 1/3 full tapper",
+  "setting-third-resin-quantity-comment": "Amount of resin harvested from a 1/3 full tree tapper",
+  "setting-twothird-resin-quantity": "Resin from 2/3 full tapper",
+  "setting-twothird-resin-quantity-comment": "Amount of resin harvested from a 2/3 full tree tapper",
+  "setting-full-resin-quantity": "Resin from full tapper",
+  "setting-full-resin-quantity-comment": "Amount of resin harvested from a full tree tapper",
+  "setting-empty-to-third-hours": "Hours: Empty to 1/3 full",
+  "setting-empty-to-third-hours-comment": "In-game hours for an empty tree tapper to become 1/3 full",
+  "setting-third-to-twothird-hours": "Hours: 1/3 to 2/3 full",
+  "setting-third-to-twothird-hours-comment": "In-game hours for a 1/3 full tree tapper to become 2/3 full",
+  "setting-twothird-to-full-hours": "Hours: 2/3 to full",
+  "setting-twothird-to-full-hours-comment": "In-game hours for a 2/3 full tree tapper to become full"
+}
