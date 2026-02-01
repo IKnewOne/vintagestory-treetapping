@@ -10,7 +10,7 @@
     {
       "name": "AttachRestricted",
       "properties": {
-        "allowedBlocks": ["game:log-resin-*", "game:log-resinharvested-*", "ancienttools:directionalresin-*"]
+        "allowedBlocks": ["game:log-resin-*", "game:log-resinharvested-*", "ancienttools:directionalresin-*", "wildfarmingrevival:wflog-*"]
       }
     }
   ],
