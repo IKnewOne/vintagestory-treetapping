@@ -40,7 +40,7 @@
             "type": "item",
             "code": "game:resin",
             "quantity": {
-              "avg": 3
+              "avg": 2
             }
           },
           "harvestedBlockCode": "treetapper-empty-{orientation}"
@@ -56,7 +56,7 @@
             "type": "item",
             "code": "game:resin",
             "quantity": {
-              "avg": 6
+              "avg": 4
             }
           },
           "harvestedBlockCode": "treetapper-empty-{orientation}"
@@ -84,21 +84,21 @@
       "transientProps": {
         "convertFrom": "treetapper-empty-{orientation}",
         "convertTo": "treetapper-third-{orientation}",
-        "inGameHours": 8
+        "inGameHours": 72
       }
     },
     "treetapper-third-*": {
       "transientProps": {
         "convertFrom": "treetapper-third-{orientation}",
         "convertTo": "treetapper-twothird-{orientation}",
-        "inGameHours": 16
+        "inGameHours": 48
       }
     },
     "treetapper-twothird-*": {
       "transientProps": {
         "convertFrom": "treetapper-twothird-{orientation}",
         "convertTo": "treetapper-full-{orientation}",
-        "inGameHours": 24
+        "inGameHours": 48
       }
     }
   },

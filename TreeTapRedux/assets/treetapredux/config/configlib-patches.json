@@ -19,7 +19,7 @@
         "ingui": "treetapredux:setting-empty-to-third-hours",
         "weight": 1.0,
         "comment": "treetapredux:setting-empty-to-third-hours-comment",
-        "default": 8,
+        "default": 72,
         "range": {
           "min": 1,
           "max": 168
@@ -41,7 +41,7 @@
         "ingui": "treetapredux:setting-third-to-twothird-hours",
         "weight": 2.0,
         "comment": "treetapredux:setting-third-to-twothird-hours-comment",
-        "default": 16,
+        "default": 48,
         "range": {
           "min": 1,
           "max": 168
@@ -52,7 +52,7 @@
         "ingui": "treetapredux:setting-twothird-resin-quantity",
         "weight": 2.5,
         "comment": "treetapredux:setting-twothird-resin-quantity-comment",
-        "default": 3,
+        "default": 2,
         "range": {
           "min": 1,
           "max": 64
@@ -63,7 +63,7 @@
         "ingui": "treetapredux:setting-twothird-to-full-hours",
         "weight": 3.0,
         "comment": "treetapredux:setting-twothird-to-full-hours-comment",
-        "default": 24,
+        "default": 48,
         "range": {
           "min": 1,
           "max": 168
@@ -74,7 +74,7 @@
         "ingui": "treetapredux:setting-full-resin-quantity",
         "weight": 3.5,
         "comment": "treetapredux:setting-full-resin-quantity-comment",
-        "default": 6,
+        "default": 4,
         "range": {
           "min": 1,
           "max": 64
