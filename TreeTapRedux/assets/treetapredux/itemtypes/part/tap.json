@@ -4,6 +4,28 @@
   "shape": {
     "base": "item/tap"
   },
+  "attributes": {
+    "tongOpening": "medium",
+    "onTongTransform": {
+      "translation": {
+        "x": -1.06,
+        "y": -1.17,
+        "z": -0.52
+      },
+      "rotation": {
+        "x": -164,
+        "y": 77,
+        "z": 22
+      }
+
+    },
+    "onMetalTongTransform": {
+      "translation": { "x": -0.9, "y": -0.28, "z": 0.35 },
+      "rotation": { "x": 76, "y": -94, "z": -59 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1.33
+    }
+  },
   "creativeinventory": { "general": ["*"], "items": ["*"] },
   "fpHandTransform": {
     "translation": { "x": 0.2, "y": 0.1, "z": 0.5 },
