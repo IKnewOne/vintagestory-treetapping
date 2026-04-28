@@ -4,9 +4,9 @@
   "name": "Tree Tapping",
   "description": "Tap leaking logs to generate resin faster",
   "authors": ["KnewOne"],
-  "version": "1.2.5",
+  "version": "1.2.6",
   "dependencies": {
-    "game": "1.22.0-rc.2"
+    "game": "1.22.0"
   },
   "contributors": ["ChaOS25"],
   "side": "universal"

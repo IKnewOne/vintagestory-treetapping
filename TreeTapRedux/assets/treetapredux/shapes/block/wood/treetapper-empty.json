@@ -10,7 +10,7 @@
 	"textures": {
 		"woodext": "game:block/wood/bucket/sides",
         "woodint": "game:block/wood/bucket/inner side",
-		"metal": "game:item/tool/material/copper",
+		"metal": "game:block/metal/ingot/copper",
 		"string": "game:block/cloth/linen/normal1"
 	},
 	"elements": [
