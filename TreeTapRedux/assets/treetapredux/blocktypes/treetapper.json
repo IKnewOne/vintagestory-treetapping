@@ -1,16 +1,22 @@
 {
   "code": "treetapper",
-  "creativeinventory": { "general": ["*-empty-north"] },
+  "creativeinventory": { "general": ["*-empty-north"], "treetapredux": ["*-empty-north"] },
+  "variantgroups": [
+    { "code": "state", "states": ["empty", "third", "twothird", "full"] },
+    { "code": "orientation", "loadFromProperties": "game:abstract/horizontalorientation" }
+  ],
   "entityClassByType": {
-    "treetapper-empty-*": "Transient",
-    "treetapper-third-*": "Transient",
-    "treetapper-twothird-*": "Transient"
+    "@.*-(empty|third|twothird)-.*" : "Transient"
   },
   "behaviors": [
     {
       "name": "AttachRestricted",
       "properties": {
-        "allowedBlocks": ["game:log-resin-*", "game:log-resinharvested-*", "ancienttools:directionalresin-*", "ancienttoolsresinharvest:directionalresin-*", "wildfarmingrevival:wflog-*"]
+        "allowedBlocks": ["game:log-resin-*", "game:log-resinharvested-*",
+          "ancienttools:directionalresin-*",
+          "ancienttoolsresinharvest:directionalresin-*",
+          "wildfarmingrevival:wflog-*"
+        ]
       }
     }
   ],
@@ -64,16 +70,6 @@
       }
     ]
   },
-  "variantgroups": [
-    {
-      "code": "state",
-      "states": ["empty", "third", "twothird", "full"]
-    },
-    {
-      "code": "orientation",
-      "loadFromProperties": "game:abstract/horizontalorientation"
-    }
-  ],
   "attributes": {
     "handbook": {
       "groupBy": ["treetapper-*"]

@@ -5,6 +5,7 @@
     "name": "metal",
     "allowedVariants": ["copper"]
   },
+  "code": "treetap-{metal}",
   "pattern": [
     [
       "______##_______",
